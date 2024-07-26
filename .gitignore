@@ -1,0 +1,8 @@
+venv
+test.db
+Dockerfile
+Dockerfile.celery
+Readme.Docker.md
+test.py
+docker-compose.yml
+.dockerignore
