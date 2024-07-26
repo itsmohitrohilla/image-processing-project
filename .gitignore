@@ -6,3 +6,4 @@ Readme.Docker.md
 test.py
 docker-compose.yml
 .dockerignore
+__pycache__
