@@ -131,6 +131,7 @@ class Task(Base):
     status = Column(String, index=True)
     output_csv_path = Column(String)
 ```
+![Screenshot 2024-07-27 at 7 00 25 PM](https://github.com/user-attachments/assets/b82101df-9fdb-4e10-8b16-2ddfa57b32b1)
 
 ### if you want to create test input data so run -> python3 create_test_data.py 
     it will take like 5 minute to create the text input file as per the requirment of the tasks
