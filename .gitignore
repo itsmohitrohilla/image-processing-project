@@ -10,3 +10,4 @@ docker-compose.yml
 app/.__pycache__
 /csv
 tests3.py
+download_images.py
