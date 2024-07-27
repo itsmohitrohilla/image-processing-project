@@ -6,4 +6,7 @@ Readme.Docker.md
 test.py
 docker-compose.yml
 .dockerignore
+.__pycache__
 __pycache__
+.csv
+tests3.py
