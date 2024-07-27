@@ -9,6 +9,9 @@
 **Hosted on AWS EC2**: [Swagger UI](http://13.233.153.137:8000/docs)  
 **Repository**: [GitHub Repository](https://github.com/itsmohitrohilla/image-processing.git)
 
+![Screenshot 2024-07-27 at 6 51 47 PM](https://github.com/user-attachments/assets/513e7bec-7430-4683-af29-a0d90bfee93c)
+
+
 **Description**:  
 This project provides a backend service for processing and managing CSV files containing image URLs. The service downloads the images, compresses them, and uploads them to an AWS S3 bucket. The project uses FastAPI for the web framework, Celery for background tasks, Redis as a message broker, and Supabase for database management.
 
@@ -130,7 +133,8 @@ class Task(Base):
 ```
 
 ### if you want to create test input data so run -> python3 create_test_data.py 
-    it will take like 5 minute to create teh text input file as per teh requirment of the tasks
+    it will take like 5 minute to create the text input file as per the requirment of the tasks
 
-### If you wanna run this code so clone the repository and update redis s3 and database credintials and the run -> ./setup.sh one time and then every time you want to use the code then  use  - > ./run.sh
+### If you wanna run this code short cut 
+so clone the repository and update redis s3 and database credintials and the run -> ./setup.sh one time and then every time you want to use the code then  use  - > ./run.sh
 
