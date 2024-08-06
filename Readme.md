@@ -9,6 +9,11 @@
 **Hosted on AWS EC2**: [Swagger UI](http://13.233.153.137:8000/docs)  
 **Repository**: [GitHub Repository](https://github.com/itsmohitrohilla/image-processing.git)
 
+**How To Run the Code** : Just clone the Reposoity and Edit you s3 bucket and database URL and the Run 
+```bash
+   docker-compose up  --build
+   ```
+
 ![Screenshot 2024-07-27 at 6 51 47 PM](https://github.com/user-attachments/assets/513e7bec-7430-4683-af29-a0d90bfee93c)
 
 
