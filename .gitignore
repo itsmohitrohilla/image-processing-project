@@ -1,13 +1,5 @@
 venv
-test.db
-Dockerfile
-Dockerfile.celery
-Readme.Docker.md
-test.py
-docker-compose.yml
-.dockerignore
-.__pycache__
-app/.__pycache__
-/csv
-tests3.py
-download_images.py
+__pycache__
+*.pyc
+*.pyo
+app/__pycache__
