@@ -66,7 +66,7 @@ async def upload_csv(file: UploadFile = File(...), db: Session = Depends(get_db)
         file_object.write(file.file.read())
     
     # Generate a UUID for the task
-    task_uuid = str(uuid.uuid4())
+    task_uuid = str(uuid.uuid4()) 
     
     # Create a new task in the database
     task = TaskModel(uuid=task_uuid, status='Pending')

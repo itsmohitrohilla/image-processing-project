@@ -24,6 +24,7 @@ def get_db():
 
 # AWS S3 configuration
 S3_ENDPOINT_URL = "https://adfwsgumljhsejglhnxn.supabase.co/storage/v1/s3"
+S3_ENDPOINT_URL_DOWNLOAD_LINK = "https://adfwsgumljhsejglhnxn.supabase.co/storage/v1/object/public"
 S3_REGION = "ap-south-1"
 S3_ACCESS_KEY = "2d5ac726150ae5b64793989ae292a149"
 S3_SECRET_KEY = "a786a549eb97c9092bcc58f39b7d4be6d96df768855e2ec527de15fab38b2b35"
@@ -42,7 +43,7 @@ BUCKET_NAME = "test-bucket"
 def upload_to_s3(file_content, s3_path):
     try:
         s3_client.put_object(Bucket=BUCKET_NAME, Key=s3_path, Body=file_content)
-        return f"{S3_ENDPOINT_URL}/{BUCKET_NAME}/{s3_path}"
+        return f"{S3_ENDPOINT_URL_DOWNLOAD_LINK}/{BUCKET_NAME}/{s3_path}"
     except Exception as e:
         print(f"Error uploading to S3: {e}")
         raise
